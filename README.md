@@ -2,7 +2,7 @@
 
 ## Overview
 
-CLIVE is a on-premises AI platform designed  for knowledge management, tender anlysis, bid writing and dociment generation.
+CLIVE is a on-premises AI platform designed  for knowledge management, tender analysis, bid writing and document generation.
 
 ## Arhitecture Principles
  - **Open Source First**: Prefer open-source solutions for all infrastructure components
@@ -14,11 +14,14 @@ CLIVE is a on-premises AI platform designed  for knowledge management, tender an
 
 
 ## Quick Start
+
 *Documentation in progress - see /docs directory*
 
 
 ---
+
 ##Project Strucure
+
 
 ```mermaid
 flowchart TB
@@ -39,33 +42,8 @@ flowchart TB
     C --> C6["📁 workers/ <br/>Background task workers"]
 ```
 
-```mermaid
-graph TD
-    clive --> docs
-    clive --> src
-    clive --> infrastructure
-    clive --> docker
-    clive --> scripts
-    clive --> tests
+## License
 
-    src --> api
-    src --> core
-    src --> services
-    src --> models
-    src --> utils
-    src --> workers
-```
+Proprietary - CVC Internal Use Only
+EOF
 
-# Test
-
-```mermaid
-graph TD
-    A --> B
-```
-
-# Hello
-
-```mermaid
-graph TD
-A --> B
-```
